@@ -1,13 +1,16 @@
-{
+  {
   "name": "first-node-application-with-EJS-templating-engine",
-  "version": "1.0.0",
-  "description": "first node application",
-  "main": "app.js",
-  "scripts": {
-    "test": "nodemon app.js"
+  "description": "Simple Hello World Node.js sample for Azure App Service",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "author": "Microsoft",
+  "engines": {
+      "node": ">=6.9.1"
   },
-  "author": "",
-  "license": "ISC",
+  "scripts": {
+      "start": "node app.js"
+  },
   "dependencies": {
     "chalk": "^2.3.1",
     "ejs": "^2.5.8",
